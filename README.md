@@ -38,6 +38,8 @@ def generate_probability_matrix(occurence_matrix):
             occurence_matrix[key][value] /= total
     return occurence_matrix
 ```
+## Encryption script
+Here we are going to see the script for 3 different simple encryption generate pseudo-randomly with a seed : Caesar cipher, Substitution cipher, Transposition cipher
 ## Sources
 * Diaconis, P., 2008. The Markov chain Monte Carlo revolution. Bulletin of the American Mathematical Society, 46(2), pp.179-205.
 * Chen, J., Rosenthal, J.S. Decrypting classical cipher text using Markov chain Monte Carlo. Stat Comput 22, 397–413 (2012).
